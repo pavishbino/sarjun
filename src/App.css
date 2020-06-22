@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 .App {
   text-align: center;
@@ -119,15 +119,11 @@
 .letter {
   text-align: left;
   padding-top: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Georgia', serif;
 }
 
 .letter .biggerText {
   font-size: 32px;
-}
-
-.letter .para {
-  font-size: 26px;
 }
 
 .wishButton {
@@ -149,4 +145,14 @@
 
 .appsIcon {
   margin: 5px;
+}
+
+.watchLive {
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+.donate {
+  font-family: 'Montserrat';
+  font-size: 14px !important;
 }

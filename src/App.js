@@ -23,7 +23,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
     return <div className="countdown">
       <div className="block">
         <span className="number">
-          {printTime(days)}
+          {days}
         </span>
         <span className="text"> Days </span>
       </div>
@@ -165,19 +165,19 @@ class App extends Component {
           <div className="letter">
             <p className="biggerText" className="h3"> Hello guys, </p>
             <br />
-            <p className="para" className="h5">
-              We officially met, quickly become friends and sooner we fell in love.. Our <strong>love was magical</strong> and everything we loved was much more loved after then. Our love for art, friends, family, movies, food and many more cherished our love better being the best moments ever last when we are together...
-          </p>
+            <p className="para h5">
+              We officially met, quickly become friends and sooner we fell in love..  Our <strong>love was magical</strong> and everything we loved was much more loved after then. Being the best moments when we are together, our love for art, friends, family, movies, food and many more cherished our love better...
+            </p>
             <br />
 
-            <p className="para" className="h5"> Everything we experienced was magic ✨  <br /><br/>
-First sight, first call, first text, first word, first ride, first movie, first fight, first tear.. Everything we yearn and share for us is magic .. The magic of togetherness.. The magic that would find happiness with your presence.. </p>
+            <p className="para h5"> Everything we experienced was magic ✨  <br /><br/>
+Our first sight, first call, first text, first word, first ride, first movie, first fight, first tear.. Everything we yearn and share for us is magic ..  </p>
             <br />
-            <p className="para" className="h5"> On <strong>July 2</strong>, our magical madness makes us husband and wife in this wondrous world. <br /> <br />
+            <p className="para h5"> On <strong>July 2</strong>, our magical madness makes us husband and wife in this wondrous world that would find happiness with your presence.. <br /> <br />
             
             As every couple do, We also wanted to invite everyone of you personally to our Big Day. Due to the ongoing Global Pandemic, We are in the situation to practise social distancing for next few months at least. So, We thought of transforming this lockdown wedding to little more interesting using technology. </p>
             <br />
-            <p className="para" className="h5"> All your wishes means a lot to us. We have arranged an option for everyone to wish us personally. Also some people might want to wish or give valuable advise to one of us or both. We have given you those options for you. </p>
+            <p className="para h5"> All your wishes means a lot to us. We have arranged an option for everyone to wish us personally. Also some people might want to wish or give valuable advise to one of us or both. We have given you those options for you. </p>
 
             <br />
             <Row>
@@ -196,7 +196,7 @@ First sight, first call, first text, first word, first ride, first movie, first 
             </div>
 
             <br />
-            <p className="para" className="h5" style={{ marginTop: 10 }}> We know that most of you want to see us on our big day. Even though you can't see us physically on that time, You can see us virtually on those moments Live. Yes, We will be live streaming our wedding in this site.. </p>
+            <p className="para h5" style={{ marginTop: 10 }}> We know that most of you want to see us on our big day. Even though you can't see us physically on that time, You can see us virtually on those moments Live. Yes, We will be live streaming our wedding in this site.. </p>
             <br />
             <Row>
               {/* <Button href="javascript:;" color="danger" disabled style={{ alignSelf: 'center', margin: "10px auto" }}>
@@ -206,28 +206,28 @@ First sight, first call, first text, first word, first ride, first movie, first 
                 <span className="btn-inner--icon">
                   <i className="ni ni-button-play" />
                 </span>
-                <span className="btn-inner--text">Watch LIVE</span>
+                <span className="btn-inner--text watchLive">Watch LIVE </span>
               </Button>
             </Row>
             <br/>
 
-            <p className="h5"> We know that you all miss the joy of gifting. So, We are giving you all the options which are available. You can feel free to order us anything from Flipkart, Amazon, Myntra etc., to our address. Ping us for address if you don't know. If you feeling confused on what to choose, You can send us Gift vouchers in those sites. Also we really appreciate if you can donate to Proud Indian NGO who is helping underprivileged to fight over CoVID-19. </p>
+            <p className="h5"> We know that you all miss the joy of gifting. we really appreciate if you can donate to Proud Indian NGO who is helping underprivileged to fight over CoVID-19. </p>
             <br/>
             <Row>
               <div style={{ margin: "0 auto" }}>
-                <span style={{ padding: 5 }}>Wedding Gift Cards by</span> <a href="https://bit.ly/2NhcL8w" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png" className="photoIcon appsIcon" style={{  }} /> </a> 
-                <a href="https://bit.ly/310CMkl" target="_blank"><img src="https://www.underconsideration.com/brandnew/archives/flipkart_logo_detail_icon.jpg" className="photoIcon appsIcon" style={{}} /> </a> 
-                <a href="https://bit.ly/2CqPkaG" target="_blank"> <img src="https://assets.materialup.com/uploads/951ea858-5d24-4aa6-8408-53da9774ccfb/preview" className="photoIcon appsIcon"></img></a>
+                {/* <span style={{ padding: 5 }}>Wedding Gift Cards by</span> <a href="https://bit.ly/2NhcL8w" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png" className="photoIcon appsIcon" style={{  }} /> </a>  */}
+                {/* <a href="https://bit.ly/310CMkl" target="_blank"><img src="https://www.underconsideration.com/brandnew/archives/flipkart_logo_detail_icon.jpg" className="photoIcon appsIcon" style={{}} /> </a>  */}
+                {/* <a href="https://bit.ly/2CqPkaG" target="_blank"> <img src="https://assets.materialup.com/uploads/951ea858-5d24-4aa6-8408-53da9774ccfb/preview" className="photoIcon appsIcon"></img></a> */}
               </div>
             </Row>
             <Row>
               <div style={{ margin: "0 auto" }}>
-                <p class="h6"> or </p> 
+                {/* <p class="h6"> or </p>  */}
               </div>
             </Row>
             <Row>
               <div style={{ margin: "0 auto" }}>
-                <a href="https://bit.ly/3deKtpz" className="btn btn-primary" target="_blank"> Donate to Proud Indian NGO </a> 
+                <a href="https://bit.ly/3deKtpz" className="btn btn-primary donate" target="_blank"> Donate to Proud Indian NGO </a> 
               </div>
             </Row>
             <br/>
@@ -236,7 +236,7 @@ First sight, first call, first text, first word, first ride, first movie, first 
             <p className="para"> </p> 
 
 
-            <p className="para" className="h5"> We really miss the fun of sharing the joy, tease us, etc.,. Please do feel free to share your thoughts, memes over your social media too with our official hashtag. We will also pick few and feature it in this site.. </p>
+            <p className="para h5"> We really miss the fun of sharing the joy, tease us, etc.,. Please do feel free to share your thoughts, memes over your social media too with our official hashtag. We will also pick few and feature it in this site.. </p>
 
             <br/>
 
@@ -250,7 +250,7 @@ First sight, first call, first text, first word, first ride, first movie, first 
                 </Alert>
               </Row>
             </div>}
-
+            
 
           </div>
         </Container>
