@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74fbad78b9a3b4606187a444b811e86a",
+    "revision": "fe11e6b073608836f466489b0646f2dc",
     "url": "/index.html"
   },
   {
-    "revision": "fb97db9a9600cff2a7a9",
-    "url": "/static/css/main.cee6aaab.chunk.css"
+    "revision": "dc102dc9950203d7c4aa",
+    "url": "/static/css/main.07afa4d5.chunk.css"
   },
   {
     "revision": "bba4638f09d5b29d6873",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9b32131a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb97db9a9600cff2a7a9",
-    "url": "/static/js/main.adbcb88c.chunk.js"
+    "revision": "dc102dc9950203d7c4aa",
+    "url": "/static/js/main.4cebcb8a.chunk.js"
   },
   {
     "revision": "791e36abef7809e1abff",
@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nucleo-icons.f82ec6ba.ttf"
   },
   {
-    "revision": "a96fc65e8927cfb7bf57adf99fa76b21",
-    "url": "/static/media/sriandpreethi.a96fc65e.png"
+    "revision": "6efe88c3614c89745a53d478923f1b8f",
+    "url": "/static/media/sriandpreethi.6efe88c3.png"
   }
 ]);

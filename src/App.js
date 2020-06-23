@@ -134,7 +134,7 @@ class App extends Component {
                       </div>
                       <div className="btn-wrapper mt-0">
                         <Countdown
-                          date={new Date(1593660600000)}
+                          date={new Date(1593655200000)}
                           renderer={renderer}
                         />
                       </div>
@@ -240,7 +240,7 @@ Our first sight, first call, first text, first word, first ride, first movie, fi
 
             <br/>
 
-            <h3 style={{ fontSize: 32, color: '#8e44ad', fontWeight: 'bold', textAlign: 'center' }}>#SriWedsPreethi</h3>
+            <h3 style={{ fontSize: 32, color: '#8e44ad', fontWeight: 'bold', textAlign: 'center', marginBottom: 40 }} className="hashtag">#SriWedsPreethi</h3>
 
 
             {(this.state.alert !== "") && <div style={{ position: 'fixed', bottom: 10 }}> 
