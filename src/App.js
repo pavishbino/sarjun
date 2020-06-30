@@ -129,7 +129,7 @@ class App extends Component {
                     <Col className="text-center" lg="6">
                       <div>
                         <h5 class="name">Sriraman</h5>
-                        <h5 class="connector">weds</h5>
+                        <h5 class="connector">Weds</h5>
                         <h5 class="name">Preethi</h5>
                       </div>
                       <div className="btn-wrapper mt-0">
