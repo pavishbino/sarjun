@@ -76,7 +76,7 @@ class App extends Component {
       alert: ""
     }
   }
-
+  
   toggleModal (to) {
     this.setState({
       wishModal: !this.state.wishModal,
@@ -199,19 +199,19 @@ Our first sight, first call, first text, first word, first ride, first movie, fi
             <p className="para h5" style={{ marginTop: 10 }}> We know that most of you want to see us on our big day. Even though you can't see us physically on that time, You can see us virtually on those moments Live. Yes, We will be live streaming our wedding in this site.. </p>
             <br />
             <Row>
-              {/* <Button href="javascript:;" color="danger" disabled style={{ alignSelf: 'center', margin: "10px auto" }}>
+              <Button href="https://www.facebook.com/sriramanpanneer/videos/3215199025208440" color="danger" style={{ alignSelf: 'center', margin: "10px auto" }}>
                 Watch us LIVE
-              </Button> */}
-              {/* <Button className="btn-icon btn-3" color="danger" type="button" style={{ margin: "10px auto" }} disabled>
+              </Button>
+              {/* <Button  className="btn-icon btn-3" color="danger" type="button" style={{ margin: "10px auto" }} disabled>
                 <span className="btn-inner--icon">
                   <i className="ni ni-button-play" />
                 </span>
                 <span className="btn-inner--text watchLive">Watch LIVE </span>
               </Button> */}
-             
-             <div style={{ alignSelf: 'center', margin: "10px auto" }}>
-             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriramanpanneer%2Fposts%2F3214295311965478&width=500" width="500" height="496" style={{border:'none',overflow:'hidden'}} scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-            </div> 
+              
+             {/* <div style={{paddingBottom:'56.25%', position:'relative', display:'block', width:' 100%'}}>
+             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriramanpanneer%2Fposts%2F3214295311965478&width=500" width="500" height="496" style={{border:'none',overflow:'hidden'}} scrolling="no" frameborder="0" allowTransparency="true" ></iframe>
+            </div>  */}
             </Row>
             <br/>
 
