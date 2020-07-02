@@ -129,7 +129,7 @@ class App extends Component {
                     <Col className="text-center" lg="6">
                       <div>
                         <h5 class="name">Sriraman</h5>
-                        <h5 class="connector">Weds</h5>
+                        <h5 class="connector">weds</h5>
                         <h5 class="name">Preethi</h5>
                       </div>
                       <div className="btn-wrapper mt-0">
@@ -202,12 +202,16 @@ Our first sight, first call, first text, first word, first ride, first movie, fi
               {/* <Button href="javascript:;" color="danger" disabled style={{ alignSelf: 'center', margin: "10px auto" }}>
                 Watch us LIVE
               </Button> */}
-              <Button className="btn-icon btn-3" color="danger" type="button" style={{ margin: "10px auto" }} disabled>
+              {/* <Button className="btn-icon btn-3" color="danger" type="button" style={{ margin: "10px auto" }} disabled>
                 <span className="btn-inner--icon">
                   <i className="ni ni-button-play" />
                 </span>
                 <span className="btn-inner--text watchLive">Watch LIVE </span>
-              </Button>
+              </Button> */}
+             
+             <div style={{ alignSelf: 'center', margin: "10px auto" }}>
+             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriramanpanneer%2Fposts%2F3214295311965478&width=500" width="500" height="496" style={{border:'none',overflow:'hidden'}} scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div> 
             </Row>
             <br/>
 
