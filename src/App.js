@@ -128,13 +128,13 @@ class App extends Component {
                   <Row className="align-items-center justify-content-center">
                     <Col className="text-center" lg="6">
                       <div>
-                        <h5 class="name">Sriraman</h5>
+                        <h5 class="name">Sarjun</h5>
                         <h5 class="connector">weds</h5>
-                        <h5 class="name">Preethi</h5>
+                        <h5 class="name">Jannathul Firthous</h5>
                       </div>
                       <div className="btn-wrapper mt-0">
                         <Countdown
-                          date={new Date(1593655200000)}
+                          date={new Date(1615440600000)}
                           renderer={renderer}
                         />
                       </div>
@@ -143,7 +143,7 @@ class App extends Component {
                 </div>
               </Container>
               {/* SVG separator */}
-              <div className="separator separator-bottom separator-skew zindex-100">
+              {/* <div className="separator separator-bottom separator-skew zindex-100">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   preserveAspectRatio="none"
@@ -157,51 +157,48 @@ class App extends Component {
                     points="2560 0 2560 100 0 100"
                   />
                 </svg>
-              </div>
+              </div> */}
             </section>
           </div>
         </div>
         <Container>
           <div className="letter">
-            <p className="biggerText" className="h3"> Hello guys, </p>
+            <p className="biggerText" className="h3"> Dear All, </p>
             <br />
             <p className="para h5">
-              We officially met, quickly become friends and sooner we fell in love..  Our <strong>love was magical</strong> and everything we loved was much more loved after then. Being the best moments when we are together, our love for art, friends, family, movies, food and many more cherished our love better...
+            We officially met as kids and fought for chocolates and cakes in some random family marriages.. when I saw her first time she was 4 year old with cute ponytail.
             </p>
             <br />
 
-            <p className="para h5"> Everything we experienced was magic ✨  <br /><br/>
-Our first sight, first call, first text, first word, first ride, first movie, first fight, first tear.. Everything we yearn and share for us is magic ..  </p>
+            <p className="para h5"> Then now we are meeting  again on March 11, its our day to makes us husband and wife in this wondrous world that would find happiness with your presence..
+ </p>
             <br />
-            <p className="para h5"> On <strong>July 2</strong>, our magical madness makes us husband and wife in this wondrous world that would find happiness with your presence.. <br /> <br />
-            
-            As every couple do, We also wanted to invite everyone of you personally to our Big Day. Due to the ongoing Global Pandemic, We are in the situation to practise social distancing for next few months at least. So, We thought of transforming this lockdown wedding to little more interesting using technology. </p>
-            <br />
-            <p className="para h5"> All your wishes means a lot to us. We have arranged an option for everyone to wish us personally. Also some people might want to wish or give valuable advise to one of us or both. We have given you those options for you. </p>
-
-            <br />
+            <p className="para h5"> <strong>Location:</strong><br />
+            </p>
+            <p className="para h5"> <strong>Marriage Hall:</strong> <a href="https://bit.ly/3pNn5pE">https://bit.ly/3pNn5pE</a></p>
+            <p className="para h5"> <strong>Stay hotel:</strong>  <a href="https://bit.ly/3pOJenr">https://bit.ly/3pOJenr </a>(Kindly confirm with 9738540354)</p>
             <Row>
               <Button href="javascript:;" className="wishButton" style={{ margin: "10px auto" }} onClick={() => this.toggleModal("both")} color="info">
-                <img src={Preethi} className="photoIcon" /> &nbsp; Wish both of us together &nbsp; <img src={Sri} className="photoIcon" style={{ transform: 'rotate(10deg)' }} />
+                <img  className="photoIcon" /> &nbsp; Wish both of us together &nbsp; <img  className="photoIcon" style={{ transform: 'rotate(10deg)' }} />
               </Button>
             </Row>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <Button href="javascript:;" className="wishButton" outline onClick={() => this.toggleModal("sri")}>
-                <img src={Sri} className="photoIcon" style={{ transform: "scaleX(-1) rotate(25deg)" }} /> &nbsp; Wish Sriraman
+                <img  className="photoIcon" style={{ transform: "scaleX(-1) rotate(25deg)" }} /> &nbsp; Wish Sarjun
               </Button>
 
               <Button href="javascript:;" className="wishButton" outline onClick={() => this.toggleModal("preethi")}>
-                <img src={Preethi} className="photoIcon" /> &nbsp; Wish Preethi
+                <img  className="photoIcon" /> &nbsp; Wish Jannathul Firthous
               </Button>
             </div>
 
             <br />
-            <p className="para h5" style={{ marginTop: 10 }}> We know that most of you want to see us on our big day. Even though you can't see us physically on that time, You can see us virtually on those moments Live. Yes, We will be live streaming our wedding in this site.. </p>
-            <br />
-            <Row>
+            {/* <p className="para h5" style={{ marginTop: 10 }}> We know that most of you want to see us on our big day. Even though you can't see us physically on that time, You can see us virtually on those moments Live. Yes, We will be live streaming our wedding in this site.. </p>
+            <br /> */}
+            {/* <Row>
               <Button href="https://www.facebook.com/sriramanpanneer/videos/3215199025208440" color="danger" style={{ alignSelf: 'center', margin: "10px auto" }}>
                 Watch us LIVE
-              </Button>
+              </Button> */}
               {/* <Button  className="btn-icon btn-3" color="danger" type="button" style={{ margin: "10px auto" }} disabled>
                 <span className="btn-inner--icon">
                   <i className="ni ni-button-play" />
@@ -212,10 +209,10 @@ Our first sight, first call, first text, first word, first ride, first movie, fi
              {/* <div style={{paddingBottom:'56.25%', position:'relative', display:'block', width:' 100%'}}>
              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsriramanpanneer%2Fposts%2F3214295311965478&width=500" width="500" height="496" style={{border:'none',overflow:'hidden'}} scrolling="no" frameborder="0" allowTransparency="true" ></iframe>
             </div>  */}
-            </Row>
+            {/* </Row> */}
             <br/>
 
-            <p className="h5"> We know that you all miss the joy of gifting. we really appreciate if you can donate to Proud Indian NGO who is helping underprivileged to fight over CoVID-19. </p>
+            <p className="h5"> Your presence is big present for us. We really appreciate if you can donate to Proud Indian NGO who is helping underprivileged people. </p>
             <br/>
             <Row>
               <div style={{ margin: "0 auto" }}>
@@ -240,11 +237,11 @@ Our first sight, first call, first text, first word, first ride, first movie, fi
             <p className="para"> </p> 
 
 
-            <p className="para h5"> We really miss the fun of sharing the joy, tease us, etc.,. Please do feel free to share your thoughts, memes over your social media too with our official hashtag. We will also pick few and feature it in this site.. </p>
+            {/* <p className="para h5"> We really miss the fun of sharing the joy, tease us, etc.,. Please do feel free to share your thoughts, memes over your social media too with our official hashtag. We will also pick few and feature it in this site.. </p>
 
             <br/>
 
-            <h3 style={{ fontSize: 32, color: '#8e44ad', fontWeight: 'bold', textAlign: 'center', marginBottom: 40 }} className="hashtag">#SriWedsPreethi</h3>
+            <h3 style={{ fontSize: 32, color: '#8e44ad', fontWeight: 'bold', textAlign: 'center', marginBottom: 40 }} className="hashtag">#SriWedsPreethi</h3> */}
 
 
             {(this.state.alert !== "") && <div style={{ position: 'fixed', bottom: 10 }}> 
